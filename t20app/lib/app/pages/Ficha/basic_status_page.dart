@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:t20app/app/components/atribute_widget.dart';
+import 'package:t20app/app/components/atributes/atributes_widget.dart';
 
 class BasicStatusPage extends StatefulWidget {
   BasicStatusPage({Key key}) : super(key: key);
@@ -16,9 +16,7 @@ class _BasicStatusPageState extends State<BasicStatusPage> {
       appBar: AppBar(
         title: Text('Atributos e Perícias'),
       ),
-      body: Center(
-        child: AtributeWidget(),
-      ),
+      body: Container(child: AtributesWidget()),
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class ModifierController {
-  final modifierValue = ValueNotifier<int>(10);
+  final modifierValue = ValueNotifier<int>(0);
 
   changeModifier(String atribute) {
     if (atribute == '' || atribute == null) {
