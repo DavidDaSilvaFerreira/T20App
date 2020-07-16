@@ -12,9 +12,9 @@ class AtributeColumn extends StatelessWidget {
     return Container(
         child: Column(
       children: <Widget>[
-        AtributeWidget(atribute: atributes[0]),
-        AtributeWidget(atribute: atributes[1]),
-        AtributeWidget(atribute: atributes[2]),
+        AtributeWidget(atributeName: atributes[0]),
+        AtributeWidget(atributeName: atributes[1]),
+        AtributeWidget(atributeName: atributes[2]),
       ],
     ));
   }

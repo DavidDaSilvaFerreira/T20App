@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:t20app/app/pages/Ficha/basic_status_page.dart';
-import 'package:t20app/app/pages/my_home_page.dart';
 
 class AppWidget extends StatelessWidget {
   // This widget is the root of your application.

@@ -16,7 +16,10 @@ class _BasicStatusPageState extends State<BasicStatusPage> {
       appBar: AppBar(
         title: Text('Atributos e Perícias'),
       ),
-      body: Container(child: AtributesWidget()),
+      body: Container(
+          child: Column(
+        children: <Widget>[AtributesWidget()],
+      )),
     );
   }
 }
